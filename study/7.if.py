@@ -1,5 +1,7 @@
 score = int(input("请输入成绩："))
 name = "NPC"
+
+# if语句是Python中用于条件判断的语句，可以根据不同的条件执行不同的代码块。基本的if语句结构如下：
 if score == 100:
     print("你真棒！", end = "")
     if name == "NPC":

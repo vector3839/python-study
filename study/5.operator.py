@@ -6,6 +6,7 @@ print(a // b) #整除，结果是整数，且向下取整
 print(a % b) #取模，结果是a除以b的余数
 print(a ** b) #幂运算，结果是a的b次幂
 
+# 赋值运算符
 a += 1 # a = a + 1
 print(a)
 a -= 1 # a = a - 1

@@ -16,13 +16,18 @@ print(str.replace(str[7], "0"))
 print(str.split("o")) # 默认以空格分割
 
 str1 = "hello World"
-# capitalize方法：将字符串的第一个字符转换为大写字母，其他字符转换为小写字母；upper方法：将字符串中的所有字符转换为大写字母；lower方法：将字符串中的所有字符转换为小写字母；title方法：将字符串中的每个单词的首字母转换为大写字母，其他字符转换为小写字母
+# capitalize方法：将字符串的第一个字符转换为大写字母，其他字符转换为小写字母；
+# upper方法：将字符串中的所有字符转换为大写字母；
+# lower方法：将字符串中的所有字符转换为小写字母；
+# title方法：将字符串中的每个单词的首字母转换为大写字母，其他字符转换为小写字母
 print(str1.capitalize(), str1.upper(), str1.lower(), str1.title())
 
-# startswith方法：判断字符串是否以指定的子字符串开头，endswith方法：判断字符串是否以指定的子字符串结尾，可以指定起始位置和结束位置
+# startswith方法：判断字符串是否以指定的子字符串开头；可以指定起始位置和结束位置
+# endswith方法：判断字符串是否以指定的子字符串结尾，可以指定起始位置和结束位置
 print(str.startswith("he", 0, 2), str.endswith("ld", 9, 11))
 
-# isalpha判断字符串是否全为字母，isdigit判断字符串是否全为数字，isspace判断字符串是否全为空格，islower判断字符串是否全为小写字母，isupper判断字符串是否全为大写字母
+# isalpha判断字符串是否全为字母，isdigit判断字符串是否全为数字，
+# isspace判断字符串是否全为空格，islower判断字符串是否全为小写字母，isupper判断字符串是否全为大写字母
 print(str.isalpha(), str.isdigit(), str.isspace(), str.islower(), str.isupper()) 
 
 print(str.ljust(20, "*")) # 在字符串右边添加*，使总长度为20

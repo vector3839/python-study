@@ -2,17 +2,17 @@ i = 1
 import time
 #while ture:就是一直循环，直到break
 # while i <= 100:
-#     print(f"\r{i}%", end = "")
+#     print(f"{i}%", end = "\r")
 #     i += 1
 #     time.sleep(0.01)
 # print("")
 
 for i in range(1, 99):
-    print(f"\r{i}%", end = "")
+    print(f"{i}%", end = "\r")
     time.sleep(0.01)
-print("\r99%", end = "")
+print("99%", end = "\r")
 time.sleep(0.5)
-print("\r100%")
+print("100%")
 time.sleep(0.5)
 
 str = "Hello, World!"
